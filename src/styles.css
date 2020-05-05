@@ -1,0 +1,88 @@
+body {
+  background: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: black;
+  width: 100px;
+  height: 200px;
+  position: relative;
+}
+
+.App div {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+}
+
+.App :nth-child(1) {
+  width: 70px;
+  height: 10px;
+}
+.App :nth-child(2) {
+  width: 10px;
+  height: 70px;
+  left: 60px;
+}
+.App :nth-child(3) {
+  width: 10px;
+  height: 70px;
+  left: 60px;
+  top: 70px;
+}
+.App :nth-child(4) {
+  width: 70px;
+  height: 10px;
+  top: 140px;
+}
+.App :nth-child(5) {
+  width: 10px;
+  height: 70px;
+  top: 70px;
+}
+.App :nth-child(6) {
+  width: 10px;
+  height: 70px;
+}
+.App :nth-child(7) {
+  width: 70px;
+  height: 10px;
+  top: 65px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.flex-item {
+  margin-bottom: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.header button {
+  margin-left: 15px;
+  width: 40px;
+  font-size: 20px;
+}
+.header button:hover {
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  width: 100px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
